@@ -8,5 +8,5 @@
     "docs:build": "vuepress build docs"
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC"
 }
