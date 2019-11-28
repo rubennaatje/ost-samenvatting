@@ -32,7 +32,7 @@ module.exports = {
             children: [
               'operating-systems',
             ],
-          }
+          },
           {
             title: 'Voorbeeld markdown',
             collapsable: false,
