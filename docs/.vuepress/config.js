@@ -21,7 +21,7 @@ module.exports = {
         },
         {
           text: 'Main Guide',
-          link: '/guide',
+          link: '/more-text',
         },
       ],
       sidebar: {
@@ -36,18 +36,8 @@ module.exports = {
             collapsable: false,
             children: [
               'more-text',
-              'markdown',
-              'markdown-vuepress',
-              'markdown-it',
             ],
-          },
-          {
-            title: 'Misc pages',
-            children: [
-              'custom-themes',
-              'default-theme-config',
-            ],
-          },
+          }
         ],
       },
     },
