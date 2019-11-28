@@ -27,6 +27,13 @@ module.exports = {
             collapsable: false,
           },
           {
+            title: 'Operating Systems',
+            collapsable: true,
+            children: [
+              'operating-systems',
+            ],
+          }
+          {
             title: 'Voorbeeld markdown',
             collapsable: false,
             children: [
