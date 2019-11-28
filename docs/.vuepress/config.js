@@ -18,21 +18,16 @@ module.exports = {
         {
           text: 'Home',
           link: '/',
-        },
-        {
-          text: 'Main Guide',
-          link: '/more-text',
-        },
+        }
       ],
       sidebar: {
         '/': [
           {
             title: 'Home',
             collapsable: false,
-            children: ['/', 'custom/'],
           },
           {
-            title: 'Markdown stuff',
+            title: 'Voorbeeld markdown',
             collapsable: false,
             children: [
               'more-text',
