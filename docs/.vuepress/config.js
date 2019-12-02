@@ -31,7 +31,9 @@ module.exports = {
             collapsable: true,
             children: [
               'operating-systems',
-              'ost-introduction'
+              'ost-introduction',
+              'ost-os-overview',
+              'ost-processen',
             ],
           },
           {
