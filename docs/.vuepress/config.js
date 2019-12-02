@@ -7,12 +7,12 @@ module.exports = {
     docsDir: 'docs',
     themeConfig: {
       yuu: {
-        colorThemes: ['blue', 'red'],
+        colorThemes: ['blue', 'red', 'purple'],
       },
       repo: 'rubennaatje/ost-samenvatting',
       docsDir: 'docs',
       editLinks: true,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       lastUpdated: true,
       nav: [
         {
