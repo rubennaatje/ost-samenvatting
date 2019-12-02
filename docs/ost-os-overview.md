@@ -28,7 +28,6 @@ zonder het systeen te breken.
   - Timers
     
 OS wordt ook wel gezien als een soort "overheid" voor de programma's (inwoners).
-![](https://i.imgur.com/LrJHgLc.png)
 
 ## Windows architectuur
 
