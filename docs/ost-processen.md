@@ -48,7 +48,7 @@ Alle 4 de cores hebben dezelfde hardware aan boord (integer, fpu berekeningen). 
 - Kan worden weergegeven in een trace (reeks van uitgevoerde instructies)
 
 Dispatcher (verdeler)
-Een programma die de processen beurtelings de processortijd geeft
+Een programma die de processen beurtelings de processortijd geeft.
 Voorkomt dat een enkel proces alleen  processor tijd krijgt
 
 Spoor, boom
