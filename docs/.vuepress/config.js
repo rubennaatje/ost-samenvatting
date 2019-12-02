@@ -33,6 +33,7 @@ module.exports = {
               'operating-systems',
               'ost-introduction',
               'ost-os-overview',
+              'ost-processen',
             ],
           },
           {
