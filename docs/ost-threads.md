@@ -100,3 +100,5 @@ Het toepassingsprogramma bevat een API Application Program Interface die gekoppe
 
 ## Multithreaded kruispunt
 ![](https://i.imgur.com/WYNDs95.png)
+
+Meer hier over in het volgende hoofdstuk
