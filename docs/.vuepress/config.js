@@ -34,6 +34,7 @@ module.exports = {
               'ost-introduction',
               'ost-os-overview',
               'ost-processen',
+              'ost-threads',
             ],
           },
           {
