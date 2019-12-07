@@ -1,3 +1,10 @@
+---
+features:
+- title: test
+  details: test.
+---
+
+
 # More text
 
 Lorem ipsum something something something.
