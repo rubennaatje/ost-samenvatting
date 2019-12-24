@@ -1,7 +1,7 @@
 # Samenvatting voor OST 
 
 ## LEES!!
-Hoi, prima dat je deze samenvatting (die nog lang niet af is) gebruikt maar als je dat doet zou je dan misschien zelf ook iets toe kunnen  voegen? Dit kan een nieuw hoofdstuk zijn of wat dan ook. Nieuwe plaatjes / toevoegingen / verbeteringen, je kan dit gewoon doen door een pull request aan te maken of wat dan ook. Pleur je markdown in een issue, ook prima. Maar het zou fijn zijn als meer mensen dingen toevoegen om zo tot een complete samenvatting op een plek te komen :)
+Hoi, prima dat je deze samenvatting (die nog lang niet af is) gebruikt maar als je dat doet zou je dan misschien zelf ook iets toe kunnen  voegen? Dit kan een nieuw hoofdstuk zijn of wat dan ook. Nieuwe plaatjes / toevoegingen / verbeteringen, je kan dit gewoon doen door een pull request aan te maken of wat dan ook. Pleur je markdown in een issue, ook prima. Maar het zou fijn zijn als meer mensen dingen toevoegen om zo tot een complete samenvatting op één plek te komen :)
 
 Dan hoeft niemand straks zo hinderlijk door de sheets te lopen of het boek er steeds bij te pakken. Stuur een bericht als je voor het aanpassen/toevoegen het boek nodig hebt, je kan namelijk online een pdf vinden.
 
