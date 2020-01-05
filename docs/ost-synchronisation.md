@@ -24,8 +24,7 @@
 ![](https://i.imgur.com/2Lw1E4e.png)
 
 ## De kapperszaak
-![](https://i.imgur.com/8hBX2vU.png)
-https://streamable.com/0e1r4
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/i5eir/yrycuy" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ## Monitors
 - Een programmeertaal constructie om synchronisation te realiseren
