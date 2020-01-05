@@ -134,7 +134,6 @@ Processen in ware tijd
 - Proces met kortste verwachte verwerkingstijd wordt het eerst geselecteerd
 
 ![](https://i.imgur.com/dYVd7u4.png)  
-(vind dit plaatje wat makkelijker te begrijpen)
 ![](https://i.imgur.com/Eo1dosz.png)  
 
 Bepaal de gemiddelde turnaroundtijd van a en van b bediend door een fifo scheduler. Aankomsttijd alle jobs = 0
@@ -158,12 +157,14 @@ Eenvoudige optelling van de waarde die je had + de nieuwe gebruikte qoutum/2
 - Preëmptieve versie kortste resterende proces tijd strategie
 - Moet een schatting van de verwerkingstijd gebruiken
 
-![](https://i.imgur.com/yDkUFIB.png)  
+![](https://i.imgur.com/yDkUFIB.png)
+![](https://i.imgur.com/mHX1Shj.png)
 
 ## Highest Repsonse Ratio Next (HRRN)
 - Het volgende proces met de hoogste ratio wordt geselecteerd
 
 ![](https://i.imgur.com/OlOthzL.png)
+
 
 ```
 Bij T=9 moet je een keuze maken tussen 3 processen die nog uitgevoerd moeten worden:
