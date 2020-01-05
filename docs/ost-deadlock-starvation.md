@@ -83,9 +83,3 @@
 
 ## Starvation (probleem preventie run-time)
 ![](https://i.imgur.com/QUKyuwb.png)
-
-wip
-
-
-
-![](https://i.imgur.com/QUKyuwb.png)
