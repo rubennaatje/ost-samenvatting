@@ -40,7 +40,7 @@
 <details>
   <summary>Antwoord</summary>
     <img src="https://i.imgur.com/SQLYwEr.png" alt="">
-    <img src="https://i.imgur.com/5uNzaJb.png alt="">
+    <img src="https://i.imgur.com/5uNzaJb.png" alt="">
 </details>
 
 - Hoe groot is de interne fragmentatie?
@@ -77,11 +77,12 @@
 <details>
 <summary>Antwoord</summary>
 <img src="https://i.imgur.com/0dHC92O.png" alt="">
-Uitleg plaatje:
-Job 1 (7MB) gaat in de 2e 10MB partitie
-Job 2 (3MB) gaat in de 1e 4MB partitie
-De andere jobs kunnen nergens in
-(In het plaatje staat 4-1 = 1MB dat moet 4-3 = 1MB zijn)
+  
+- Uitleg plaatje:
+- Job 1 (7MB) gaat in de 2e 10MB partitie
+- Job 2 (3MB) gaat in de 1e 4MB partitie
+- De andere jobs kunnen nergens in
+- (In het plaatje staat 4-1 = 1MB dat moet 4-3 = 1MB zijn)
 - Interne fragmentatie = 3 + 1 = 4 MB
 - Externe fragmentatie = 4 + 4 = 8 MB
 - Totale fragmenetatie = 4 + 8 = 12 MB
@@ -116,7 +117,7 @@ Suspend = uitgesteld
 - Best fit
   - Minimale interne fragmentatie
 - Next fit
-  - Pogign to verdelen van externe fragmentatie
+  - Poging to verdelen van externe fragmentatie
 - Buddy system
 
 ![](https://i.imgur.com/PjCHpMy.png)
@@ -150,7 +151,7 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Elke process bestaat uit een x aantal pages
 
 ## Applicatie pages in geheugen laden
-![](https://i.imgur.com/184YaYC.png)https://i.imgur.com/FJLGPNC.png
+![](https://i.imgur.com/184YaYC.png)
 
 ## Applicatie pages in geheugen laden
 ![](https://i.imgur.com/FJLGPNC.png)
@@ -166,6 +167,7 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Hoeveel pagina's kan men in het interne geheugen plaatsen?
 <details>
   <summary>Antwoord</summary>
+  
 - 32MB - 8MB = 23MB
 - 24MB = 24000 kb / 0,5 kb (pagina) = 48000 pagina's
 </details>
@@ -173,5 +175,6 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Uit hoeveel bits bestaat de offset?
 <details>
   <summary>Antwoord</summary>
+  
 - 512 bytes per pagina = 9 bits off
 </details>
