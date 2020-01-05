@@ -77,6 +77,7 @@
 <details>
   <summary>Antwoord</summary>
     <img src="https://i.imgur.com/0dHC92O.png" alt="">  
+  
     - Uitleg plaatje:
     - Job 1 (7MB) gaat in de 2e 10MB partitie
     - Job 2 (3MB) gaat in de 1e 4MB partitie
@@ -166,6 +167,7 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Hoeveel pagina's kan men in het interne geheugen plaatsen?
 <details>
   <summary>Antwoord</summary>
+  
   - 32MB - 8MB = 23MB
   - 24MB = 24000 kb / 0,5 kb (pagina) = 48000 pagina's
 </details>
@@ -173,5 +175,6 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Uit hoeveel bits bestaat de offset?
 <details>
   <summary>Antwoord</summary>  
+  
   - 512 bytes per pagina = 9 bits off
 </details>
