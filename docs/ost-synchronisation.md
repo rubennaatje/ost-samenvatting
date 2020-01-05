@@ -25,7 +25,7 @@
 
 ## De kapperszaak
 ![](https://i.imgur.com/8hBX2vU.png)
-[![](http://img.youtube.com/vi/FrcsLAESFvs/0.jpg)](https://www.youtube.com/watch?v=FrcsLAESFvs)
+https://streamable.com/0e1r4
 
 ## Monitors
 - Een programmeertaal constructie om synchronisation te realiseren
