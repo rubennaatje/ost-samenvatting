@@ -120,7 +120,7 @@
 - Herhaal stap 1 en stap 2
   - Omdat tijdens stap 2 de recentelijk gebruikte bit is gereset wordt er zeker een kandidaat gevonden
 
-```
+``` js
 while(!found page)
   if(zoek page die niet recentelijk gebruikt is en niet gewijzigd)
     remove page
