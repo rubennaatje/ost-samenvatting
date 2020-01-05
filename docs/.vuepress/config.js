@@ -35,6 +35,8 @@ module.exports = {
               'ost-os-overview',
               'ost-processen',
               'ost-threads',
+              'ost-synchronisation',
+              'ost-deadlock-starvation',
             ],
           },
           {
