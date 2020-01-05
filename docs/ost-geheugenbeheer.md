@@ -75,18 +75,17 @@
 
 - Wat is de interne, de externe en totale fragmentatie?
 <details>
-<summary>Antwoord</summary>
-<img src="https://i.imgur.com/0dHC92O.png" alt="">
-  
-- Uitleg plaatje:
-- Job 1 (7MB) gaat in de 2e 10MB partitie
-- Job 2 (3MB) gaat in de 1e 4MB partitie
-- De andere jobs kunnen nergens in
-- (In het plaatje staat 4-1 = 1MB dat moet 4-3 = 1MB zijn)
-- Interne fragmentatie = 3 + 1 = 4 MB
-- Externe fragmentatie = 4 + 4 = 8 MB
-- Totale fragmenetatie = 4 + 8 = 12 MB
-- 2 jobs moeten wachten terwijl alle jobs 22 MB nodig hebben er ok ook 22 MB beschikbaar is!
+  <summary>Antwoord</summary>
+    <img src="https://i.imgur.com/0dHC92O.png" alt="">  
+    - Uitleg plaatje:
+    - Job 1 (7MB) gaat in de 2e 10MB partitie
+    - Job 2 (3MB) gaat in de 1e 4MB partitie
+    - De andere jobs kunnen nergens in
+    - (In het plaatje staat 4-1 = 1MB dat moet 4-3 = 1MB zijn)
+    - Interne fragmentatie = 3 + 1 = 4 MB
+    - Externe fragmentatie = 4 + 4 = 8 MB
+    - Totale fragmenetatie = 4 + 8 = 12 MB
+    - 2 jobs moeten wachten terwijl alle jobs 22 MB nodig hebben er ook 22 MB beschikbaar is!
 </details>
 
 ## Externe fragmentatie bij *dynamische* allocatie
@@ -167,14 +166,12 @@ Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
 - Hoeveel pagina's kan men in het interne geheugen plaatsen?
 <details>
   <summary>Antwoord</summary>
-  
-- 32MB - 8MB = 23MB
-- 24MB = 24000 kb / 0,5 kb (pagina) = 48000 pagina's
+  - 32MB - 8MB = 23MB
+  - 24MB = 24000 kb / 0,5 kb (pagina) = 48000 pagina's
 </details>
 
 - Uit hoeveel bits bestaat de offset?
 <details>
-  <summary>Antwoord</summary>
-  
-- 512 bytes per pagina = 9 bits off
+  <summary>Antwoord</summary>  
+  - 512 bytes per pagina = 9 bits off
 </details>
