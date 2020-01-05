@@ -10,11 +10,15 @@
 - Een thread geeft semaphore weer vrij middels een signal() aanroep
   - De semaphore verhoogd zichzelf
   - Waarde nu <=0 deblokkeer een thread/proces uit de wachtrij
+  
+![](https://i.imgur.com/k6tJKOF.png)
 
 ## Binaire Semaphore
 - Een semaphore die geïnitialiseerd is op ‘1’
 - Er kan dus maar 1 thread/proces gelijktijdig de semaphore ‘pakken’
 - Een vorm van mutual exclusion
+
+![](https://i.imgur.com/YRDknQC.png)
 
 ## Multithreaded kruispunt
 ![](https://i.imgur.com/2Lw1E4e.png)
