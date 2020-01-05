@@ -95,7 +95,7 @@
 ## Uitswappen van processen
 - Er kunnen zoveel processen bestaan dat er een gebrek aan werkgeheugen onstaat
 - Swap deze processen naar disk om meer geheugen vrij te krijgen
-- De state wordt *suspend* (uitgesteld) state wanneer het process geswapt is naar disk
+- De state wordt *suspend* (uitgesteld) state wanneer het proces geswapt is naar disk
 - Tween nieuwe states
   - Blocked, suspend
   - Ready, suspend
@@ -105,7 +105,7 @@ Swapping is een I/O bewerking en daarmee lopen we het risico dat het probleem ni
 
 Suspend = uitgesteld
 
-## A seven-state process model
+## A seven-state proces model
 ![](https://i.imgur.com/WvoeaQV.png)
 
 ## Externe fragmentatie by *dynamische* allocatie
@@ -148,7 +148,7 @@ Omdat geheugenblokken (bijvoorbeeld na uit- en inswappen) elders in het geheugen
 Dit biedt mogelijkheid om geheugen veel fijnmaziger te partitioneren
   - Deze techniek heet paging en de partitie een page
   - Omvang van een page is bijvoorbeeld 4KB
-- Elke process bestaat uit een x aantal pages
+- Elke proces bestaat uit een x aantal pages
 
 ## Applicatie pages in geheugen laden
 ![](https://i.imgur.com/184YaYC.png)
