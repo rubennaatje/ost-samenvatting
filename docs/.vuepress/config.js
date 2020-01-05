@@ -37,6 +37,7 @@ module.exports = {
               'ost-threads',
               'ost-synchronisation',
               'ost-deadlock-starvation',
+              'ost-geheugenbeheer',
             ],
           },
           {
