@@ -39,6 +39,7 @@ module.exports = {
               'ost-deadlock-starvation',
               'ost-geheugenbeheer',
               'ost-virtueel-geheugen',
+              'ost-scheduling',
             ],
           },
           {
