@@ -38,6 +38,7 @@ module.exports = {
               'ost-synchronisation',
               'ost-deadlock-starvation',
               'ost-geheugenbeheer',
+              'ost-virtueel-geheugen',
             ],
           },
           {
