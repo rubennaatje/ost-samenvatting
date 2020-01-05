@@ -9,6 +9,8 @@ module.exports = {
       yuu: {
         colorThemes: ['blue', 'red', 'purple'],
       },
+      repo: 'rubennaatje/ost-samenvatting',
+      docsDir: 'docs',
       editLinks: true,
       sidebarDepth: 4,
       lastUpdated: true,
