@@ -121,11 +121,14 @@
   - Omdat tijdens stap 2 de recentelijk gebruikte bit is gereset wordt er zeker een kandidaat gevonden
 
 ``` js
-while(!found page)
-  if(zoek page die niet recentelijk gebruikt is en niet gewijzigd)
-    remove page
-  else if (zoek page die niet recentelijk gebruikt is maar wel gewijzigd)
-    reset recentelijk gebruikte bit
+while(!found_page)
+  if(zoek page die niet recentelijk gebruikt is en niet gewijzigd) {
+    remove(page);
+    found_page = true;
+  }
+  else if (zoek page die niet recentelijk gebruikt is maar wel gewijzigd) {
+    reset();
+  }
 ```
 
 ![](https://i.imgur.com/l4h4hrZ.png)
