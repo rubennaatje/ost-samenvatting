@@ -1,13 +1,14 @@
 # OS introduction
 ![](https://i.imgur.com/NDcm2pf.png)
 
-
 ## Computerarchitectuur
 
 *Grofweg bestaan computersystemen uit 3 hoofdonderdelen*
-- CPU
-- Geheugen
-- Input-Output apparaten
+- CPU (processor)
+
+- Geheugen (main memory)
+- Input-Output apparaten (I/O modules)
+- System bus
 
 ![](https://i.imgur.com/5hqEAxq.png)
 
@@ -20,6 +21,8 @@
     - *Data*
 - I/O Module
     - *Hebben eigen (hardware) buffers*
+- System bus
+    - Communcatie tussen processors, memory en I/O modules
 
 ![](https://i.imgur.com/uDggSYi.png)
 
