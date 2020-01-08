@@ -40,6 +40,7 @@ module.exports = {
               'ost-geheugenbeheer',
               'ost-virtueel-geheugen',
               'ost-scheduling',
+              'io-management'
             ],
           },
           {
