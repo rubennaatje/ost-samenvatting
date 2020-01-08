@@ -194,7 +194,131 @@ Round Robin scheduling:
   respons tijd.
 ```
 
+## Tijdsquotum en standaardinteractie
+![](https://i.imgur.com/IciWidh.png)
 
-WIP
+```
+Betere plaatjes plaatje 1 t.o.v. 2 bedrieglijk.
+Quantum lengte kiezen is lastig.
+Groot -> slechte respons      Klein -> veel switching.
+Indien volledig quantum gebruikt wordt, krijgt 
+het proces de volgende keer een groter quantum.
+Aging: 
+Een combinatie van dynamische  tijdquanta en dynamische prioriteit is in de CTSS toegepast:  Na ieder volledig gebruikte interval wordt het aantal quanta verdubbeld en de prioriteit verlaagd.
+Grote programma's verdwijnen zo naar de laagste prior en de CPU heeft meer tijd voor de interactieve users. Stel de CPU tijd per proces is vooraf bekend is: 
+Wat is dan het beste algoritme voor de scheduler 
+```
+
+## Round Robin en Processen met veel I/O
+![](https://i.imgur.com/5Wfxe7N.png)
+
+## Wachtrijschema bij een scheduler met virtual round robin
+![](https://i.imgur.com/QHnjhLu.png)
+
+```
+Klein quotum korte responsetijd (grotere overhead)
+Een groot quotum  nadelig voor I/O gebonden processen voordelig voor processorgebonden processen (rekentaken).
+Om dit probleem op te lossen wordt een aanvullende wachtrij toegevoegd waarin processen staan die gereed zijn bij een IO-aanvraag. Deze rij krijgt voorrang boven de gewone wachtrij “gereed”..
+De timeslice wordt dan bepaald door het algemene quatum min de tijd die besteed is aan uitvoering uit de hoofdwachtrij gereed.
+```
+
+## Round Robin en Processen met veel I/O
+![](https://i.imgur.com/5zKuiYo.png)
+
+## Round Robin scheduling
+- Gevraagd:
+- Gemiddelde turn around tijd tq en tq/ts
+- time quanta = 1
+
+![](https://i.imgur.com/NwzKu6u.png)
+
+## Feedback
+- Bij andere scheduling algoritmen worden kleien processen vaak eerst afgehandeld (verlaagd gemiddelde wachttijd)
+- Kan ook bij Round Robin:
+   - Staf processen die lang uitgevoegd worden door prioriteit te verlagen
+	
+![](https://i.imgur.com/bAzlVz5.png)
+	
+## Scheduling met feedback
+![](https://i.imgur.com/1lOdAXW.png)
+
+## Thread scheduling - Individuele scheduling
+- Voordelen
+  - Werklast verdeeld door CPU's
+  - Gemeenschappelijke wachtrij waar alle threads in staan
+- Nadelen
+  - CPU-cache minder efficient gebruikt
+  - Veel processwisselingen door afhankelijkheden tussen threads
+  
+![](https://i.imgur.com/2BOidNm.png)
+
+## Thread scheduling - Groeps scheduling
+- Deel/alle threads van een proces gelijktijdig op/van CPU
+- Voordelen
+  - Eenvoudige scheduling
+  - Threads draaien parallel
+    - Dus minder synchronisatieproblemen
+- Nadelen
+  - Minder efficient cpu-belsating
+    
+```
+Groep: bijvoorbeeld alle threads van een proces
+Dispatch groep threads in één keer
+
+Efficientie: als er veel te doen is valt dat wel mee
+simpele scheduling
+oude techniek, voordat er threads waren
+een proces – een processor
+groep processen – groep processors
+```
+
+## Thread scheduling - Vaste toewijzing
+- Wanneer een proces wordt ingeroosterd, dan krijgt elke thread een processor toegewezen gedurende de levensduur van het proces.
+- Lijkt inefficient maar zinvol indien er veel rpcoessors zijn (20-100+)
+  - Bijvoorbeeld in een CPU
+  
+## Energie efficienie
+- Energieverbuik door de CPU:
+- Power = Frequency * Voltage^2 * Capacitance + Leakage
+  - Frequency * Voltage^2 = afhaneklijk van belasting
+  - Capacitance + Leakage = gegeven door hardware
+- Frequency : Huidige klokfrequentie
+- Voltage : Huidige schakelvoltage
+- Capacitance : Elektrische capaciteit van de CPU
+- Leakage : Lekstroom door de CPU
+<hr>
+- Energieverbruik door CPU:
+- Power = Frequency * Voltage^2 * Capacitance + Leakage
+
+![](https://i.imgur.com/PmFz9Ro.png)
+
+- CPU's kunnen in verschillende power-states verkeren:
+- C-states
+  - C0: Volledig actief
+  - C1: (Half) CPU voert momenteel geen instructies uit
+  - C2: (Stop-Clock) CPU is in 'lichte' slaaptoestand en heeft korte tijd nodig om volgende instructie te kunnen uitvoeren
+  - C3: (Sleep) CPU staat 'uit'
+  - C4 t/m C10: Extra sleep states vna bijvoorbeeld Intel Haswell
+- P-states
+  - P0: Maximale power en klokfrequentie
+  - P1: Minder dan P0, voltage en klokfrequentie omlaag
+  - Pn: Laagste voltage en klokfrequentie
+
+![](https://i.imgur.com/qRhZkgu.png)
+
+## Energie efficientie - Timer Coalescing
+![](https://i.imgur.com/T8E90qf.png)
+![](https://i.imgur.com/NbrhKQC.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
